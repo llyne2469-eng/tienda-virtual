@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>NellShopSport</title>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<h1>Tienda Deportiva NellShopSport</h1>
+
+<h3>Productos</h3>
+
+<div class="productos">
+
+<div class="producto">
+   <img src="Tenis.jpg" alt=""> 
+<h4>Zapatos deportivos</h4>
+<p>$120.000</p>
+<button onclick="agregarCarrito('Zapatos deportivos')">Agregar al carrito</button>
+</div>
+
+<div class="producto">
+ <img src="Camiseta.jpg" alt="">   
+<h4>Camiseta deportiva</h4>
+<p>$60.000</p>
+<button onclick="agregarCarrito('Camiseta deportiva')">Agregar al carrito</button>
+</div>
+
+<div class="producto">
+    <img src="Balon Futbol.jpg" alt="">
+<h4>Balón de fútbol</h4>
+<p>$80.000</p>
+<button onclick="agregarCarrito('Balón de fútbol')">Agregar al carrito</button>
+</div>
+
+</div>
+
+<h3>Carrito de compras</h3>
+
+<ul id="carrito"></ul>
+
+<script src="js/carrito.js"></script>
+
+</body>
+</html>

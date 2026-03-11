@@ -1,0 +1,22 @@
+.productos{
+
+display:flex;
+justify-content:center;
+gap:20px;
+
+}
+
+.producto{
+
+border:1px solid #ccc;
+padding:20px;
+width:200px;
+border-radius:10px;
+
+}
+
+button{
+
+cursor:pointer;
+
+}
